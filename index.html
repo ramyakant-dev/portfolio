@@ -1,0 +1,298 @@
+<!doctype html>
+<html class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <title> PHP Developer </title>
+</head>
+
+<!-- body class="dark:bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-gray-950 via-purple-950 to-gray-950" -->
+<body class="bg-sky-50 dark:bg-black">        
+  <header class="z-50">
+    <nav class="fixed right-0 left-0 top-0 bg-gray-200 dark:bg-zinc-900 ">
+      <div class="flex justify-between items-center">
+        <div class="flex items-center">
+          <!-- Logo -->
+          <div class="ml-2">
+            <a href="#" class="flex items-center px-2 py-2 4xl:px-6 4xl:py-6">
+            
+              <svg class="w-10 h-10 h- 4xl:w-20 4xl:h-20  text-gray-900 dark:text-slate-200" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 22 22">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="m12.46 7.291 3.849-3.849a1.5 1.5 0 0 1 2.122 0l.127.127a1.5 1.5 0 0 1 0 2.122l-3.839 3.838a4 4 0 0 0-2.259-2.238Zm0 0a4 4 0 0 1 2.263 2.238l3.662-3.662a8.96 8.96 0 0 1 0 10.27l-3.676-3.676m-2.249-5.17 3.677-3.676a8.96 8.96 0 0 0-10.27 0l3.662 3.662a4 4 0 0 0-2.238 2.258L3.615 5.863a8.961 8.961 0 0 0 0 10.27l3.662-3.662a4 4 0 0 0 2.258 2.238l-3.672 3.676a8.96 8.96 0 0 0 10.27 0l-3.662-3.662a4 4 0 0 0 2.238-2.262m0 0 3.849 3.848a1.499 1.499 0 0 1 0 2.122l-.127.126a1.5 1.5 0 0 1-2.122 0l-3.838-3.838a4 4 0 0 0 2.238-2.258ZM15 11a4 4 0 1 1-8 0 4 4 0 0 1 8 0Zm-7.719 1.471-3.839 3.838a1.5 1.5 0 0 0 0 2.122l.127.126a1.5 1.5 0 0 0 2.122 0l3.848-3.848a4 4 0 0 1-2.258-2.238Zm2.248-5.19L5.691 3.442a1.5 1.5 0 0 0-2.122 0l-.127.127a1.5 1.5 0 0 0 0 2.122l3.849 3.848a4 4 0 0 1 2.238-2.258Z"/>
+              </svg>
+                
+              <span class="ml-2 4xl:ml-5 font-normal text-2xl 4xl:text-5xl tracking-widest text-gray-900 dark:text-slate-200">{RKS}</span>              
+            </a>
+          </div>
+        </div>
+
+        <!-- Desktop Menu -->
+        <div class="hidden lg:flex space-x-5 mr-1">
+          
+          <a href="#home-section" class="flex items-center px-2 py-4 4xl:pr-8">
+            <svg class="w-6 h-6 4xl:w-14 4xl:h-14 mr-2 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M3 8v10a1 1 0 0 0 1 1h4v-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5h4a1 1 0 0 0 1-1V8M1 10l9-9 9 9"/>
+            </svg>
+            <span class="font-medium text-base text-gray-900 dark:text-slate-100 4xl:text-4xl"> Home </span> 
+          </a>
+
+          <a href="#about-section" class="flex items-center px-2 py-4 4xl:pr-8">
+            <svg class="w-6 h-6 4xl:w-12 4xl:h-12 mr-2 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 18">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M7 8a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm-2 3h4a4 4 0 0 1 4 4v2H1v-2a4 4 0 0 1 4-4Z"/>
+            </svg>
+            <span class="font-medium text-base text-gray-900 hover:text-gray-800 dark:text-slate-100 4xl:text-4xl"> About </span> 
+          </a>
+
+          <a href="#skills-section" class="flex items-center px-2 py-4 4xl:pr-8">
+            <svg class="w-6 h-6 4xl:w-12 4xl:h-12 mr-2 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 16">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M5 4 1 8l4 4m10-8 4 4-4 4M11 1 9 15"/>
+            </svg>
+            <span class="font-medium text-base text-gray-900 hover:text-gray-800 dark:text-slate-100 4xl:text-4xl"> Skills </span> 
+          </a>
+
+          <a href="#contact-section" class="flex items-center px-2 py-4 4xl:pr-8">
+            <svg class="w-6 h-6 4xl:w-12 4xl:h-12 mr-2 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 16">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="m19 2-8.4 7.05a1 1 0 0 1-1.2 0L1 2m18 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1m18 0v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2"/>
+            </svg>
+            <span class="font-medium text-base text-gray-900 hover:text-gray-800 dark:text-slate-100 4xl:text-4xl"> Contact </span> 
+          </a>
+          
+          
+          <div class="border-l 4xl:border-l-8 4xl:pr-4 border-dotted border-slate-400 dark:border-slate-600">
+            <!-- Button for Theme Change -->
+            <button class="px-4 py-4 4xl:mr-4 4xl:ml-6" id="dark-mode" onclick="darkModeTheme();">
+              <svg class="w-6 h-6 4xl:w-12 4xl:h-12 text-gray-800 dark:text-slate-100" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M8.509 5.75c0-1.493.394-2.96 1.144-4.25h-.081a8.5 8.5 0 1 0 7.356 12.746A8.5 8.5 0 0 1 8.509 5.75Z"/>
+              </svg>
+            </button>
+
+            <button class="px-4 py-4 4xl:mr-4 4xl:ml-6 hidden" id="light-mode" onclick="lightModeTheme();">
+              <svg class="w-6 h-6 4xl:w-12 4xl:h-12 text-gray-800 dark:text-slate-100" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M10 3V1m0 18v-2M5.05 5.05 3.636 3.636m12.728 12.728L14.95 14.95M3 10H1m18 0h-2M5.05 14.95l-1.414 1.414M16.364 3.636 14.95 5.05M14 10a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Mobile Menu Button-->
+        <div class="lg:hidden flex items-center mr-6">
+          <button id="menu-open-button" class="">
+            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="16" height="12" fill="none" viewBox="0 0 16 12">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M1 1h14M1 6h14M1 11h7"/>
+            </svg>
+          </button>
+
+          <button id="menu-close-button" class="hidden">
+            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Menu Below -->
+      <div id="mobile-menu" class="hidden lg:hidden mx-2 px-2 mt-2 mb-2 pb-6  rounded-sm bg-zinc-100 dark:bg-zinc-900">
+
+          <div class="flex justify-end border-b border-slate-200 dark:border-slate-200/10">
+            <button class="px-1 py-4 hidden" id="mobile-dark-mode-button" onclick="darkModeTheme()">
+              <svg class="w-6 h-6 text-slate-800 dark:text-slate-100" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M8.509 5.75c0-1.493.394-2.96 1.144-4.25h-.081a8.5 8.5 0 1 0 7.356 12.746A8.5 8.5 0 0 1 8.509 5.75Z"/>
+              </svg>
+            </button>
+            
+            <button class="px-1 mr-1 py-4" id="mobile-light-mode-button" onclick="lightModeTheme()">
+              <svg class="w-6 h-6 text-slate-800 dark:text-slate-100" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M10 3V1m0 18v-2M5.05 5.05 3.636 3.636m12.728 12.728L14.95 14.95M3 10H1m18 0h-2M5.05 14.95l-1.414 1.414M16.364 3.636 14.95 5.05M14 10a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"/>
+              </svg>
+            </button>
+          </div>
+
+          <a href="#home-section" class="block px-4 py-4 font-medium hover:bg-purple-900 dark:hover:bg-purple-950">
+            <div class="flex items-center">
+              <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M3 8v10a1 1 0 0 0 1 1h4v-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5h4a1 1 0 0 0 1-1V8M1 10l9-9 9 9"/>
+              </svg>
+              <span class="ml-4 text-xl font-light dark:text-white">Home</span>
+            </div>
+          </a>
+
+          <a href="#about-section" class="block px-4 py-4 font-medium hover:bg-purple-900 dark:hover:bg-purple-950">
+            <div class="flex items-center">
+              <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 18">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M7 8a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm-2 3h4a4 4 0 0 1 4 4v2H1v-2a4 4 0 0 1 4-4Z"/>
+              </svg>  
+              <span class="ml-4 text-xl font-light dark:text-white">About</span>
+            </div>
+          </a>
+  
+          <a href="#skills-section" class="block px-4 py-4 font-medium hover:bg-purple-900 dark:hover:bg-purple-950">
+            <div class="flex items-center">
+              <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 16">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M5 4 1 8l4 4m10-8 4 4-4 4M11 1 9 15"/>
+              </svg>
+              <span class="ml-4 text-xl font-light dark:text-white">Skills</span>
+            </div>
+          </a>
+  
+          <a href="#contact-section" class="block px-4 py-4 mb-4 font-medium hover:bg-purple-900 dark:hover:bg-purple-950">
+            <div class="flex items-center">
+              <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 16">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="m19 2-8.4 7.05a1 1 0 0 1-1.2 0L1 2m18 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1m18 0v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2"/>
+              </svg>
+              <span class="ml-4 text-xl font-light dark:text-white">Contact</span>
+            </div>
+          </a>
+
+      </div>
+    </nav>
+  </header>
+  
+  <!-- Main Content Below -->
+  <section id="home-section" class="h-screen pt-14 md:pt-16 lg:pt-24">
+    <div class="h-5/6 grid justify-center content-center">
+      <div class="child">
+        <h1 class="animate-rainbowtext text-3xl sm:text-6xl lg:text-8xl 4xl:text-9xl bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black"> HELLO WORLD! </h1>
+        <p class="text-slate-900 text-xl sm:text-4xl lg:text-4xl 4xl:text-6xl  dark:text-gray-100 mt-4">My name Is Ramyakant.</p>
+        <p class="text-slate-900 text-xl sm:text-4xl lg:text-4xl 4xl:text-6xl dark:text-gray-100">I'm a PHP developer.</p>
+        <div class="inline-block">
+          <p class="typewriter-text text-slate-900 text-lg sm:text-xl lg:text-3xl 4xl:text-4xl dark:text-gray-100 ">Welcome. &#128591;</p>
+        </div> 
+      </div>
+    </div>
+
+
+    <a href="#about-section" id="arrow-down" class="mx-6 md:mx-10 lg:mx-14 4xl:mx-40 grid place-items-end">
+      <div class="-z-50 animate-bounce bg-gray-200 dark:bg-slate-800 p-2 w-10 h-10 md:w-14 md:h-14 4xl:w-16 4xl:h-16 ring-1 ring-slate-900/5 dark:ring-slate-200/20 shadow-lg rounded-full">
+        <svg class="w-6 h-6 md:w-10 md:h-10 4xl:w-12 4xl:h-12 text-violet-500" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+          <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+        </svg>
+      </div>
+    </a>
+  </section>
+
+  <!-- About Section Below -->
+  <section id="about-section" class="h-screen mx-4 md:mx-5 lg:mx-12 flex items-center justify-center">
+    <div class="w-full lg:pt-10">
+        <h1 class="animate-rainbowtext text-3xl sm:text-6xl lg:text-8xl 4xl:text-9xl bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black text-center">ABOUT</h1>
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-4 gap-y-6 md:gap-x-5  md:gap-y-6  lg:gap-x-6 lg:gap-y-8 text-md md:text-lg lg:text-xl 4xl:text-5xl mt-24 lg:mt-28">
+          
+          <div class="lg:text-center 4xl:h-40 px-2 py-2 w-full bg-gray-200 dark:bg-zinc-900  rounded-md 4xl:rounded-xl shadow-2xl dark:hover:bg-orange-500 hover:bg-teal-400   transition ease-in delay-75 hover:-translate-y-1 hover:scale-105 duration-75 ">
+            <p class="text-slate-900 dark:text-gray-100 4xl:pt-4">Industry Exp.</p>
+            <span class="text-slate-900 dark:text-gray-100">7+ Years</span>
+          </div>
+
+          <div class="text-right md:text-center lg:text-center 4xl:h-40 px-2 py-2 w-full bg-gray-200 dark:bg-zinc-900  rounded-md 4xl:rounded-xl shadow-2xl dark:hover:bg-orange-500 hover:bg-teal-400   transition ease-in delay-75 hover:-translate-y-1 hover:scale-105 duration-75 ">
+            <p class="text-slate-900 dark:text-gray-100 4xl:pt-4">Degree</p>
+            <span class="text-slate-900 dark:text-gray-100"> Computer Sc. </span>
+          </div>
+
+          <div class="text-left md:text-right lg:text-center 4xl:h-40 px-2 py-2 w-full bg-gray-200 dark:bg-zinc-900  rounded-md 4xl:rounded-xl shadow-2xl dark:hover:bg-orange-500 hover:bg-teal-400   transition ease-in delay-75 hover:-translate-y-1 hover:scale-105 duration-75 ">
+            <p class="text-slate-900 dark:text-gray-100 4xl:pt-4"> Coding Language</p>
+            <span class="text-slate-900 dark:text-gray-100">PHP</span>
+          </div>
+
+          <div class="text-right md:text-left lg:text-center md:col-span-1 lg:col-span-1 4xl:h-40 px-2 py-2 w-full bg-gray-200 dark:bg-zinc-900  rounded-md 4xl:rounded-xl shadow-2xl dark:hover:bg-orange-500 hover:bg-teal-400   transition ease-in delay-75 hover:-translate-y-1 hover:scale-105 duration-75 ">
+            <p class="text-slate-900 dark:text-gray-100 4xl:pt-4"> Spoken Language</p>
+            <span class="text-slate-900 dark:text-gray-100"> English </span>
+          </div>
+          
+          <div class="text-left md:text-center lg:text-center md:col-span-1 lg:col-span-1 4xl:h-40 px-2 py-2 w-full bg-gray-200 dark:bg-zinc-900  rounded-md 4xl:rounded-xl shadow-2xl dark:hover:bg-orange-500 hover:bg-teal-400   transition ease-in delay-75 hover:-translate-y-1 hover:scale-105 duration-75 ">
+            <p class="text-slate-900 dark:text-gray-100 4xl:pt-4"> Working Style </p>
+            <span class="text-slate-900 dark:text-gray-100"> W/O Team </span>
+          </div>
+
+          <div class="text-right md:text-right lg:text-center md:col-span-1 lg:col-span-2 4xl:h-40 px-2 py-2 w-full bg-gray-200 dark:bg-zinc-900  rounded-md 4xl:rounded-xl shadow-2xl dark:hover:bg-orange-500 hover:bg-teal-400   transition ease-in delay-75 hover:-translate-y-1 hover:scale-105 duration-75 ">
+            <p class="text-slate-900 dark:text-gray-100 4xl:pt-4">From</p>
+            <span class="text-slate-900 dark:text-gray-100">India</span>
+          </div>
+
+          <div class="text-center col-span-2 md:col-span-3 lg:col-span-3 4xl:h-40 px-2 py-2 w-full bg-gray-200 dark:bg-zinc-900  rounded-md 4xl:rounded-xl shadow-2xl dark:hover:bg-orange-500 hover:bg-teal-400   transition ease-in delay-75 hover:-translate-y-1 hover:scale-105 duration-75 ">
+            <p class="text-slate-900 dark:text-gray-100 4xl:pt-4">Location</p>
+            <span class="text-slate-900 dark:text-gray-100">Poland</span>
+          </div>
+
+        </div>
+    </div>
+  </section>
+
+  <!-- Skills Section Below -->
+  <section id="skills-section" class="h-screen mx-6 md:mx-10 lg:mx-12 sm:pt-8 lg:pt-14 flex items-center justify-center">
+    <div class="md:w-full sm:pt-0 md:pt-0 lg:pt-0">
+      <h1 class="text-center animate-rainbowtext text-3xl sm:text-6xl lg:text-8xl 4xl:text-9xl bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black">SKILLS</h1>
+      
+      <p class="mt-8 md:mt-10 lg:mt-10 4xl:mt-20 text-slate-900 dark:text-gray-100 text-center text-lg sm:text-xl lg:text-2xl 4xl:text-6xl"> Technologies I use everyday to create applications. </p>
+
+      <div class="grid grid-cols-2 gap-x-5 gap-y-5 md:grid-cols-3 lg:grid-cols-3 text-slate-900 dark:text-gray-100 text-center mt-8 sm:text-lg lg:text-xl 4xl:text-5xl">
+        
+        <div class="px-2 py-2 4xl:h-24 w-full bg-gray-200 dark:bg-zinc-900  rounded-md 4xl:rounded-xl shadow-2xl dark:hover:bg-orange-500 hover:bg-teal-400">HTML</div>
+        <div class="px-2 py-2 4xl:h-24 w-full bg-gray-200 dark:bg-zinc-900  rounded-md 4xl:rounded-xl shadow-2xl dark:hover:bg-orange-500 hover:bg-teal-400">CSS</div>
+        <div class="px-2 py-2 4xl:h-24 w-full bg-gray-200 dark:bg-zinc-900  rounded-md 4xl:rounded-xl shadow-2xl dark:hover:bg-orange-500 hover:bg-teal-400">JavaScript</div>
+        <div class="px-2 py-2 4xl:h-24 w-full bg-gray-200 dark:bg-zinc-900  rounded-md 4xl:rounded-xl shadow-2xl dark:hover:bg-orange-500 hover:bg-teal-400">PHP</div>
+        <div class="px-2 py-2 4xl:h-24 w-full bg-gray-200 dark:bg-zinc-900  rounded-md 4xl:rounded-xl shadow-2xl dark:hover:bg-orange-500 hover:bg-teal-400">MySQL</div>
+        <div class="px-2 py-2 4xl:h-24 w-full bg-gray-200 dark:bg-zinc-900  rounded-md 4xl:rounded-xl shadow-2xl dark:hover:bg-orange-500 hover:bg-teal-400">Apache</div>
+
+      </div>
+
+      <p class="mt-8 md:mt-12 lg:mt-20 4xl:mt-32 text-slate-900 dark:text-gray-100 text-center text-lg sm:text-xl lg:text-2xl 4xl:text-6xl"> PHP FrameWorks & Other Tools: </p>
+
+      <div class="grid grid-cols-3 gap-x-4 gap-y-5 md:grid-cols-4 lg:grid-cols-6 text-slate-900 dark:text-gray-100 text-center mt-10 sm:text-lg lg:text-xl 4xl:text-5xl">
+        <div class="px-2 py-2 4xl:h-24 w-full bg-gray-200 dark:bg-zinc-900  rounded-md 4xl:rounded-xl shadow-2xl dark:hover:bg-orange-500 hover:bg-teal-400">Symfony</div>
+        <div class="px-2 py-2 4xl:h-24 w-full bg-gray-200 dark:bg-zinc-900  rounded-md 4xl:rounded-xl shadow-2xl dark:hover:bg-orange-500 hover:bg-teal-400">Laravel</div>
+        <div class="px-2 py-2 4xl:h-24 w-full bg-gray-200 dark:bg-zinc-900  rounded-md 4xl:rounded-xl shadow-2xl dark:hover:bg-orange-500 hover:bg-teal-400">CodeIgniter</div>
+        <div class="px-2 py-2 4xl:h-24 w-full bg-gray-200 dark:bg-zinc-900  rounded-md 4xl:rounded-xl shadow-2xl dark:hover:bg-orange-500 hover:bg-teal-400">Git</div>
+        <div class="px-2 py-2 4xl:h-24 w-full bg-gray-200 dark:bg-zinc-900  rounded-md 4xl:rounded-xl shadow-2xl dark:hover:bg-orange-500 hover:bg-teal-400">Composer</div>
+        <div class="px-2 py-2 4xl:h-24 w-full bg-gray-200 dark:bg-zinc-900  rounded-md 4xl:rounded-xl shadow-2xl dark:hover:bg-orange-500 hover:bg-teal-400">Docker</div>
+        <div class="px-2 py-2 4xl:h-24 w-full bg-gray-200 dark:bg-zinc-900  rounded-md 4xl:rounded-xl shadow-2xl dark:hover:bg-orange-500 hover:bg-teal-400">Agile</div>
+        <div class="px-2 py-2 4xl:h-24 w-full bg-gray-200 dark:bg-zinc-900  rounded-md 4xl:rounded-xl shadow-2xl dark:hover:bg-orange-500 hover:bg-teal-400">JIRA</div>
+        <div class="px-2 py-2 4xl:h-24 w-full bg-gray-200 dark:bg-zinc-900  rounded-md 4xl:rounded-xl shadow-2xl dark:hover:bg-orange-500 hover:bg-teal-400">NjinX</div>
+        <div class="px-2 py-2 4xl:h-24 w-full bg-gray-200 dark:bg-zinc-900  rounded-md 4xl:rounded-xl shadow-2xl dark:hover:bg-orange-500 hover:bg-teal-400">API</div>
+        <div class="px-2 py-2 4xl:h-24 w-full bg-gray-200 dark:bg-zinc-900  rounded-md 4xl:rounded-xl shadow-2xl dark:hover:bg-orange-500 hover:bg-teal-400">Redis</div>
+        <div class="px-2 py-2 4xl:h-24 w-full bg-gray-200 dark:bg-zinc-900  rounded-md 4xl:rounded-xl shadow-2xl dark:hover:bg-orange-500 hover:bg-teal-400">JQuery</div>
+        <div class="px-2 py-2 4xl:h-24 w-full col-span-3 md:col-span-4 lg:col-span-6 bg-gray-200 dark:bg-zinc-900  rounded-md 4xl:rounded-xl shadow-2xl dark:hover:bg-orange-500 hover:bg-teal-400">Tailwind</div>
+
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Contact Section Below -->
+  <section id="contact-section" class="h-screen mx-8 md:mx-12 lg:mx-14 sm:pt-8 lg:pt-10 mt-5 flex items-center justify-center">
+    <div class="md:pt-5 lg:pt-0">
+      <h1 class="text-center animate-rainbowtext md:pt-10 text-3xl sm:text-6xl lg:text-8xl 4xl:text-9xl bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black">CONTACT</h1>   
+      
+      <p class="text-slate-900 text-xl sm:text-2xl lg:text-4xl tracking-tight text-center dark:text-gray-100 mt-40 4xl:text-5xl">Let's Connect! &#129309;</p>
+
+      <div class="text-center mt-8 md:pb-36 lg:pb-0">
+        <a href="mailto:ramyaknt.samal@gmail.com" target="_blank">
+          <button type="button" class="w-32 h-10 4xl:w-96 4xl:h-24 text-white bg-purple-800 hover:bg-purple-400 focus:ring-4 focus:ring-purbg-purple-500 font-medium rounded-lg text-sm 4xl:text-4xl  px-5 py-2.5 mr-2 mb-2 dark:bg-purple-800 dark:hover:bg-purple-600  dark:focus:ring-purple-100">Email</button>
+        </a>
+  
+        <a href="https://www.linkedin.com/in/ramyakantsamal/" target="_blank">
+          <button type="button" class="w-32 h-10 4xl:w-96 4xl:h-24 text-white bg-purple-800 hover:bg-purple-400 focus:ring-4 focus:ring-purbg-purple-500 font-medium rounded-lg text-sm 4xl:text-4xl px-5 py-2.5 mr-2 mb-2 dark:bg-purple-800 dark:hover:bg-purple-600  dark:focus:ring-purple-100">LinkedIn</button>
+        </a>
+      </div>
+
+      <!-- p class="text-slate-900 text-xl sm:text-2xl lg:text-4xl tracking-tight text-center dark:text-gray-100">Thank You For Visiting! &#128591;</p -->
+    </div>
+  </section>
+
+  <!-- div class="flex align-top" id="light-effect">
+    <div id="light-bulb1" class="hidden -z-10 lg:block absolute opacity-10 brightness-100 dark:bg-zinc-50 w-60 h-60 rounded-full blur-3xl"></div>
+    <div id="light-bulb2" class="hidden -z-10 lg:block absolute opacity-5 brightness-100  dark:bg-zinc-50 w-72 h-72 rounded-full blur-3xl"></div>
+    <div id="light-bulb3" class="hidden -z-10 lg:block absolute opacity-5 brightness-100  dark:bg-zinc-50 w-80 h-80 rounded-full blur-3xl"></div>
+    <div id="light-bulb4" class="hidden -z-10 lg:block absolute opacity-5 brightness-100   dark:bg-zinc-50 w-96 h-96 rounded-full blur-3xl"></div>
+  </div -->
+
+  <footer>
+    <div class="fixed bottom-0 w-full flex justify-between bg-gray-200 dark:bg-zinc-900">
+      <p class="px-2 py-2 ml-2 mr-2 4xl:text-4xl 4xl:p-6  text-gray-900 dark:text-white">© <span id="current-year"> </span> - <span class="tracking-widest">{RKS}</span></p>
+      <p class="px-2 py-2 ml-2 mr-2 4xl:text-4xl 4xl:p-6 text-gray-900 dark:text-white">V1.0</p>
+      <!-- p class="px-2 py-2 ml-2 mr-2 text-gray-900 dark:text-white">All rights reserved.</p -->
+    </div> 
+  </footer>
+
+  <script src="./js/mouse.js"></script>
+  <script type="text/javascript" src="./js/style.js"></script>
+</body>
+</html>
