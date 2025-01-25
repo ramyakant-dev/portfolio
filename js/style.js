@@ -38,8 +38,8 @@ for (let container of containers) {
 
 
 //Current Year in Footer
-let year = new Date().getFullYear();
-document.getElementById('current-year').innerText = year;
+//let year = new Date().getFullYear();
+document.getElementById('current-year').innerText = new Date().getFullYear();
 //Current Year in Footer
 
 
